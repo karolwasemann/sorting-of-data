@@ -1,23 +1,25 @@
-# Przeprogramowani.pl - Opanuj JavaScript
+# Przeprogramowani.pl - Master JavaScript
 
-Moduł II. - Przeglądarka bez tajemnic
+Module II. - Browser without secrets
 
-## Ćwiczenie nr. 8 - Sortowanie danych
+## Exercise 8 - Sorting data
 
-### Jak zacząć
+### How to get started
 
-Kliknij przycisk "Fork" u góry edytora aby skopiować ćwiczenie.
+Click the "Fork" button at the top of the editor to copy the exercise.
 
-### Cel ćwiczenia
+### Exercise goal
 
-W tabeli znajdują się informacje o modułach kursu "Opanuj JavaScript".
+The table contains information about the modules of the "Master JavaScript" course.
 
-Spraw aby:
+Make the following:
 
-1. po kliknięciu na "Czas trwania" moduły sortowały się według czasu trwania
-2. trzałka przy napisie "Czas trwania" sugerowała użytkownikowi kolejność
-3. sekundy były wyświetlane w formacie hh:mm:ss
+1. when you click on "Duration", the modules sort themselves by duration
+2. the bar next to "Duration" suggests the order to the user
+3. seconds are displayed in the format hh:mm:ss
 
-### Punkty bonusowe
+### Bonus points
 
-Zaimplementuj animację zamiany kolejności wykorzystując animacje CSS.
+Implement an order swap animation using CSS animations.
+
+
