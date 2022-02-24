@@ -4,7 +4,6 @@ const tableBody = document.querySelector("tbody");
 const rows = [...document.querySelectorAll("tbody tr")];
 
 let direction = false;
-
 const objRows = rows.map((row) => {
   return {
     module: row.children[0].innerHTML,
