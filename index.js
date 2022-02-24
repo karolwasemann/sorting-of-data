@@ -1,10 +1,9 @@
 const btnTime = document.querySelector("th a");
-const arrow = btnTime.querySelector("i");
+const arrow = document.querySelector("i");
 const tableBody = document.querySelector("tbody");
 const rows = [...document.querySelectorAll("tbody tr")];
 
 let direction = false;
-
 const objRows = rows.map((row) => {
   return {
     module: row.children[0].innerHTML,
@@ -41,8 +40,9 @@ const timeFormat = (time) => {
 };
 
 const arrowDirection = (direction) => {
-  arrow.classList.remove(`fa-caret-${direction ? "down" : "up"}`);
-  arrow.classList.add(`fa-caret-${direction ? "up" : "down"}`);
+  const icon = document.querySelector("svg");
+  icon.classList.remove(`fa-caret-${direction ? "down" : "up"}`);
+  icon.classList.add(`fa-caret-${direction ? "up" : "down"}`);
 };
 
 const handleClick = () => {
